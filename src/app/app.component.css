@@ -1,0 +1,22 @@
+.cafe{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.cafeBox{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+
+.cafeBox img{
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+}
